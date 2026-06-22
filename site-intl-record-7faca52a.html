@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开云 · 日常查询与对照说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            background: #f8f7f4;
+            color: #252a2e;
+        }
+
+        /* 深色头图 */
+        .hero {
+            background: #1d2328;
+            color: #e8e6e1;
+            padding: 4rem 2rem 3.5rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            max-width: 680px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: #b5b2aa;
+            line-height: 1.7;
+        }
+
+        .hero .sub {
+            margin-top: 1.5rem;
+            font-size: 0.95rem;
+            color: #8c8982;
+            border-top: 1px solid #333b42;
+            display: inline-block;
+            padding-top: 1rem;
+        }
+
+        /* 浅色正文区 */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 4rem;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin: 2.5rem 0 1.2rem;
+            color: #1d2328;
+            border-left: 4px solid #b38b5b;
+            padding-left: 1rem;
+        }
+
+        .section-title:first-of-type {
+            margin-top: 0.5rem;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 1.5rem 1.2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid #eae8e3;
+        }
+
+        .card h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1d2328;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #40464b;
+        }
+
+        .highlight {
+            background: #f3efe8;
+            border-left: 4px solid #b38b5b;
+            padding: 1.2rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.8rem 0;
+        }
+
+        .highlight p {
+            margin-bottom: 0.4rem;
+        }
+
+        a {
+            color: #b38b5b;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s, border-bottom 0.2s;
+            border-bottom: 1px solid transparent;
+        }
+
+        a:hover {
+            color: #8f6d3f;
+            border-bottom: 1px solid #8f6d3f;
+        }
+
+        .faq-item {
+            padding: 0.9rem 0;
+            border-bottom: 1px solid #e7e4de;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            color: #1d2328;
+        }
+
+        .faq-a {
+            margin-top: 0.3rem;
+            color: #4e555b;
+            font-size: 0.95rem;
+        }
+
+        .btn-soft {
+            display: inline-block;
+            background: transparent;
+            border: 1px solid #b38b5b;
+            color: #b38b5b;
+            padding: 0.5rem 1.2rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            margin-top: 0.8rem;
+        }
+
+        .btn-soft:hover {
+            background: #b38b5b;
+            color: #fff;
+            border-color: #b38b5b;
+        }
+
+        .footnote {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: #7a7d7e;
+            border-top: 1px solid #ddd9d1;
+            padding-top: 2rem;
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .container {
+                padding: 1.8rem 1rem 3rem;
+            }
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>开云 · 信息对照与延伸阅读</h1>
+        <p>一份面向日常查询、条目对照与内容扩展的整理说明。<br>内容保持客观，仅作参考，不构成任何形式的使用建议。</p>
+        <div class="sub">基于公开材料汇总 · 版本 2025.03</div>
+    </header>
+
+    <main class="container">
+
+        <!-- 摘要 / 定位 -->
+        <section>
+            <div class="section-title">摘要</div>
+            <p>「开云」是一个在中文语境中常被用于信息检索与条目对照的名称集合。本页从日常查询、资料延伸与内容补充的角度出发，整理其常见指向、特点与使用场景，帮助有需要的读者快速定位并形成自己的理解框架。如需获取更完整的来源与最新动态，可参考 <a href="https://site-intl-kai-yun.com">开云</a> 中的公开页面。</p>
+        </section>
+
+        <!-- 亮点卡片 -->
+        <section>
+            <div class="section-title">亮点</div>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>多源对照</h3>
+                    <p>整合多条公开信息线索，便于横向比对，减少反复跳转的负担。</p>
+                </div>
+                <div class="card">
+                    <h3>场景适配</h3>
+                    <p>适用于资料查阅、词汇对照、延伸阅读等轻量信息处理场景。</p>
+                </div>
+                <div class="card">
+                    <h3>结构清晰</h3>
+                    <p>按条目、标签、常见问题等方式组织，降低阅读门槛。</p>
+                </div>
+                <div class="card">
+                    <h3>指向明确</h3>
+                    <p>每条内容均注明来源线索，保持适度克制，不夸大或猜测。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 使用建议 / 场景 -->
+        <section>
+            <div class="section-title">使用建议</div>
+            <div class="highlight">
+                <p><strong>日常查询</strong> — 当需要快速了解「开云」相关的基础事实或常见关联时，可直接浏览卡片区与 FAQ 摘要。</p>
+                <p><strong>对照阅读</strong> — 若手头有多个来源，可结合本页所列要点进行交叉对比，减少信息偏差。</p>
+                <p><strong>延伸参考</strong> — 如需更系统的内容，可通过 <a href="https://site-intl-kai-yun.com">开云</a> 获取更完整的说明主页，但请注意核实时效性。</p>
+                <p style="margin-top:0.8rem; font-size:0.9rem; color:#6a6f73;">⚠ 所有内容均基于公开可查材料，不构成任何形式的推荐或保证。</p>
+            </div>
+        </section>
+
+        <!-- FAQ 摘要 -->
+        <section>
+            <div class="section-title">常见问题摘要</div>
+            <div class="faq-item">
+                <div class="faq-q">Q: 这里的信息是最新的吗？</div>
+                <div class="faq-a">本页仅作为一个静态汇总，时效性受限于整理时间。建议以实际来源（如 <a href="https://site-intl-kai-yun.com">开云</a>）为准。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Q: 可以用于正式引用吗？</div>
+                <div class="faq-a">本页内容属于二次整理，不具备原始权威性。正式引用请回溯至一手来源页面。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Q: 还有其他类似的对照页吗？</div>
+                <div class="faq-a">当前只有这一份综合摘要。如需更细分的领域信息，可尝试通过站内搜索或外部索引查找。</div>
+            </div>
+        </section>
+
+        <!-- 可信但克制的访问说明 -->
+        <section style="margin-top: 2rem;">
+            <div class="section-title">访问说明</div>
+            <p>为保证信息来源可靠，本页所有链接均指向经过核验的公开地址。其中主要参考站点为 <a href="https://site-intl-kai-yun.com">开云</a>，其内容结构适合作为延伸阅读的起点。但请留意：互联网信息持续更新，具体页面可能随时间调整或迁移。建议在重要决策前，自行多方核实。</p>
+            <p style="margin-top: 0.8rem;">此外，本页不嵌入任何跟踪脚本、第三方资源或广告代码，仅作静态展示。你可以自由浏览、保存或分享本文档。</p>
+            <a href="https://site-intl-kai-yun.com" class="btn-soft">开云</a>
+        </section>
+
+        <footer class="footnote">
+            整理基于公开资料 · 仅供个人参考 · 不构成任何形式的承诺或引导
+        </footer>
+
+    </main>
+
+</body>
+</html>
